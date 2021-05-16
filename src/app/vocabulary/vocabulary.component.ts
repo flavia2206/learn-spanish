@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Vocabulary, Word } from '../models/vocabulary.interface';
+import { Category, Vocabulary, Word } from '../models/vocabulary.interface';
 import { VocabularyService } from '../services/vocabulary.service';
 
 @Component({
@@ -9,7 +9,8 @@ import { VocabularyService } from '../services/vocabulary.service';
 })
 export class VocabularyComponent implements OnInit {
 
-  vocabulary: Word[];
+  words: Word[];
+  categories: Category[];
   currentWord: any;
   solution: string;
   correct: boolean;
@@ -21,32 +22,18 @@ export class VocabularyComponent implements OnInit {
 
   ngOnInit(): void {
     this.vocabularyService.getVocabulary().subscribe((vocabulary: Vocabulary) => {
-      this.vocabulary = this.getAllCategories(vocabulary);
-      this.currentWord = this.vocabulary[this.currentIndex];
-      console.log(this.currentWord)
+      this.categories = vocabulary.categories;
+      this.words = this.getAllCategories(vocabulary);
+      this.currentWord = this.words[this.currentIndex];
     });
   }
 
   getAllCategories(vocabulary: Vocabulary): Word[] {
-    return [
-      ...vocabulary.aliments,
-      ...vocabulary.bedroom,
-      ...vocabulary.colors,
-      ...vocabulary.days,
-      ...vocabulary.desserts,
-      ...vocabulary.drinks,
-      ...vocabulary.food,
-      ...vocabulary.fruits,
-      ...vocabulary.house,
-      ...vocabulary.livingRoom,
-      ...vocabulary.meat,
-      ...vocabulary.months,
-      ...vocabulary.numbers,
-      ...vocabulary.objects,
-      ...vocabulary.ordinals,
-      ...vocabulary.seasons,
-      ...vocabulary.vegetables
-    ];
+    let wordArray = [];
+    vocabulary.categories.forEach(category => {
+      wordArray = [...wordArray, ...category.words]
+    });
+    return wordArray;
   }
 
   getRandomInt(max) {
@@ -55,7 +42,6 @@ export class VocabularyComponent implements OnInit {
   }
 
   verify() {
-    console.log(this.solution)
     this.disableNext = false;
     this.solution === this.currentWord.translation ? this.correct = true : this.correct = false;
   }
@@ -65,10 +51,10 @@ export class VocabularyComponent implements OnInit {
     this.solution = '';
     this.disableNext = true;
     if (this.random) {
-      this.currentWord = this.vocabulary[this.getRandomInt(this.vocabulary.length-1)];
+      this.currentWord = this.words[this.getRandomInt(this.words.length-1)];
     } else {
-      this.currentIndex !== this.vocabulary.length - 1 ? this.currentIndex += 1 : this.currentIndex = 0;
-      this.currentWord = this.vocabulary[this.currentIndex];
+      this.currentIndex !== this.words.length - 1 ? this.currentIndex += 1 : this.currentIndex = 0;
+      this.currentWord = this.words[this.currentIndex];
     }
   }
 
@@ -78,10 +64,9 @@ export class VocabularyComponent implements OnInit {
     this.currentIndex = 0;
     this.disableNext = true;
     this.vocabularyService.getVocabulary().subscribe((vocabulary: Vocabulary) => {
-      event === 'all' ? this.vocabulary = this.getAllCategories(vocabulary) : this.vocabulary = vocabulary[event];
+      event === 'all' ? this.words = this.getAllCategories(vocabulary) : this.words = vocabulary.categories.find(category => category.categoryValue === event).words;
       event === 'all' ? this.random = true : this.random = false;
-      this.currentWord = this.vocabulary[this.currentIndex];
-      console.log(this.currentWord)
+      this.currentWord = this.words[this.currentIndex];
     });
   }
 

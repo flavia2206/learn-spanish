@@ -1,1386 +1,1535 @@
 {
-    "colors": [
-        {
-            "word": "galben",
-            "translation": "amarillo"
-        },
-        {
-            "word": "portocaliu",
-            "translation": "naranja"
-        },
-        {
-            "word": "rosu",
-            "translation": "rojo"
-        },
-        {
-            "word": "mov",
-            "translation": "morado"
-        },
-        {
-            "word": "albastru",
-            "translation": "azul"
-        },
-        {
-            "word": "verde",
-            "translation": "verde"
-        },
-        {
-            "word": "roz",
-            "translation": "rosa"
-        },
-        {
-            "word": "gri deschis",
-            "translation": "gris claro"
-        },
-        {
-            "word": "gri inchis",
-            "translation": "gris obscuro"
-        },
-        {
-            "word": "maro",
-            "translation": "marrón"
-        },
-        {
-            "word": "alb",
-            "translation": "blanco"
-        },
-        {
-            "word": "negru",
-            "translation": "negro"
-        }
-    ],
-    "days": [
-        {
-            "word": "luni",
-            "translation": "lunes"
-        },
-        {
-            "word": "marti",
-            "translation": "martes"
-        },
-        {
-            "word": "miercuri",
-            "translation": "miércoles"
-        },
-        {
-            "word": "joi",
-            "translation": "jueves"
-        },
-        {
-            "word": "vineri",
-            "translation": "viernes"
-        },
-        {
-            "word": "sambata",
-            "translation": "sábado"
-        },
-        {
-            "word": "duminica",
-            "translation": "domingo"
-        }
-    ],
-    "seasons":[
-        {
-            "word": "iarna",
-            "translation": "invierno"
-        },
-        {
-            "word": "primavara",
-            "translation": "primavera"
-        },
-        {
-            "word": "vara",
-            "translation": "verano"
-        },
-        {
-            "word": "toamna",
-            "translation": "otoño"
-        }
-    ],
-    "months":[
-        {
-            "word": "ianuarie",
-            "translation": "enero"
-        },
-        {
-            "word": "februarie",
-            "translation": "febrero"
-        },
-        {
-            "word": "martie",
-            "translation": "marzo"
-        },
-        {
-            "word": "aprilie",
-            "translation": "abril"
-        },
-        {
-            "word": "mai",
-            "translation": "mayo"
-        },
-        {
-            "word": "iunie",
-            "translation": "junio"
-        },
-        {
-            "word": "iulie",
-            "translation": "julio"
-        },
-        {
-            "word": "august",
-            "translation": "agosto"
-        },
-        {
-            "word": "septembrie",
-            "translation": "septiembre"
-        },
-        {
-            "word": "octombrie",
-            "translation": "octubre"
-        },
-        {
-            "word": "noiembrie",
-            "translation": "noviembre"
-        },
-        {
-            "word": "decembrie",
-            "translation": "diciembre"
-        }
-    ],
-    "house":[
-        {
-            "word": "sufragerie",
-            "translation": "salón"
-        },
-        {
-            "word": "bucatarie",
-            "translation": "cocina"
-        },
-        {
-            "word": "dormitor",
-            "translation": "dormitorio"
-        },
-        {
-            "word": "baie",
-            "translation": "cuarto de baño"
-        },
-        {
-            "word": "birou",
-            "translation": "estudio"
-        },
-        {
-            "word": "gradina",
-            "translation": "jardín"
-        },
-        {
-            "word": "balcon",
-            "translation": "balcón"
-        },
-        {
-            "word": "garaj",
-            "translation": "cochera"
-        },
-        {
-            "word": "subsol",
-            "translation": "sótano"
-        },
-        {
-            "word": "pod",
-            "translation": "ático"
-        },
-        {
-            "word": "scara",
-            "translation": "escalera"
-        },
-        {
-            "word": "hol",
-            "translation": "pasillo"
-        }
-    ],
-    "objects":[
-        {
-            "word": "usa",
-            "translation": "puerta"
-        },
-        {
-            "word": "geam",
-            "translation": "ventana"
-        },
-        {
-            "word": "sonerie",
-            "translation": "timbre"
-        },
-        {
-            "word": "intrerupator",
-            "translation": "interruptor"
-        },
-        {
-            "word": "priza",
-            "translation": "enchufe"
-        },
-        {
-            "word": "calorifer",
-            "translation": "radiador"
-        },
-        {
-            "word": "robinet",
-            "translation": "grifo"
-        },
-        {
-            "word": "tablou",
-            "translation": "cuadro"
-        },
-        {
-            "word": "podea",
-            "translation": "suelo"
-        },
-        {
-            "word": "perete",
-            "translation": "pared"
-        },
-        {
-            "word": "tavan",
-            "translation": "techo"
-        }
-    ],
-    "livingRoom":[
-        {
-            "word": "canapea",
-            "translation": "sofá"
-        },
-        {
-            "word": "telefon",
-            "translation": "teléfono"
-        },
-        {
-            "word": "fotoliu",
-            "translation": "sillón"
-        },
-        {
-            "word": "masuta",
-            "translation": "mesita"
-        },
-        {
-            "word": "telecomanda",
-            "translation": "mando TV"
-        },
-        {
-            "word": "rafturi",
-            "translation": "estantería"
-        },
-        {
-            "word": "scaun",
-            "translation": "silla"
-        },
-        {
-            "word": "semineu",
-            "translation": "chimenea"
-        },
-        {
-            "word": "perdele",
-            "translation": "cortinas"
-        }
-    ],
-    "bedroom":[
-        {
-            "word": "pat",
-            "translation": "cama"
-        },
-        {
-            "word": "perna",
-            "translation": "almohada"
-        },
-        {
-            "word": "dulap",
-            "translation": "armario"
-        },
-        {
-            "word": "noptiera",
-            "translation": "mesita de noche"
-        },
-        {
-            "word": "birou",
-            "translation": "escritorio"
-        },
-        {
-            "word": "covor",
-            "translation": "alfombra"
-        },
-        {
-            "word": "jucarii",
-            "translation": "juguetes"
-        },
-        {
-            "word": "carte",
-            "translation": "libro"
-        },
-        {
-            "word": "umeras",
-            "translation": "percha"
-        },
-        {
-            "word": "cerceaf",
-            "translation": "sábana"
-        },
-        {
-            "word": "lampa",
-            "translation": "lámpara"
-        },
-        {
-            "word": "plapuma",
-            "translation": "edredón"
-        }
-    ],
-    "kitchen":[
-        {
-            "word": "furculita",
-            "translation": "tenedor"
-        },
-        {
-            "word": "cutit",
-            "translation": "cuchillo"
-        },
-        {
-            "word": "lingura",
-            "translation": "cuchara"
-        },
-        {
-            "word": "polonic",
-            "translation": "cucharón"
-        },
-        {
-            "word": "cratita",
-            "translation": "cacillo"
-        },
-        {
-            "word": "tiganie",
-            "translation": "sartén"
-        },
-        {
-            "word": "oala",
-            "translation": "cacerola"
-        },
-        {
-            "word": "cana",
-            "translation": "taza"
-        },
-        {
-            "word": "pahar",
-            "translation": "vaso"
-        },
-        {
-            "word": "pahar cu picior",
-            "translation": "copa"
-        },
-        {
-            "word": "recipient",
-            "translation": "jarra"
-        },
-        {
-            "word": "cos de gunoi",
-            "translation": "cubo de basura"
-        }
-    ],
-    "otherObjects":[
-        {
-            "word": "mop",
-            "translation": "mopa"
-        },
-        {
-            "word": "racoritoare",
-            "translation": "refresco"
-        },
-        {
-            "word": "tava",
-            "translation": "molde"
-        },
-        {
-            "word": "ceas",
-            "translation": "reloj"
-        },
-        {
-            "word": "mixer",
-            "translation": "batidora"
-        },
-        {
-            "word": "storcator",
-            "translation": "exprimidor"
-        },
-        {
-            "word": "toaster",
-            "translation": "tostadora"
-        },
-        {
-            "word": "microunde",
-            "translation": "microondas"
-        },
-        {
-            "word": "masina de spalat vase",
-            "translation": "lavavajillas"
-        },
-        {
-            "word": "cuptor",
-            "translation": "horno"
-        },
-        {
-            "word": "frigider",
-            "translation": "frigorífico"
-        },
-        {
-            "word": "masina de spalat",
-            "translation": "lavadora"
-        },
-        {
-            "word": "aragaz",
-            "translation": "hornilla"
-        }
-    ],
-    "fruits":[
-        {
-            "word": "avocado",
-            "translation": "el aguacate"
-        },
-        {
-            "word": "caisa",
-            "translation": "el albaricoque"
-        },
-        {
-            "word": "coacaza",
-            "translation": "el arándano"
-        },
-        {
-            "word": "cireasa",
-            "translation": "la cereza"
-        },
-        {
-            "word": "pruna",
-            "translation": "la ciruela"
-        },
-        {
-            "word": "cocos",
-            "translation": "el coco"
-        },
-        {
-            "word": "zmeura",
-            "translation": "la frambuesa"
-        },
-        {
-            "word": "capsuna",
-            "translation": "la fresa"
-        },
-        {
-            "word": "rodie",
-            "translation": "la granada"
-        },
-        {
-            "word": "curmala",
-            "translation": "el higo"
-        },
-        {
-            "word": "lime",
-            "translation": "la lima"
-        },
-        {
-            "word": "lamaie",
-            "translation": "el limón"
-        },
-        {
-            "word": "mar",
-            "translation": "la manzana"
-        },
-        {
-            "word": "fructul pasiunii",
-            "translation": "el maracuyá"
-        },
-        {
-            "word": "piersica",
-            "translation": "el melocotón"
-        },
-        {
-            "word": "gutuie",
-            "translation": "el membrillo"
-        },
-        {
-            "word": "mura",
-            "translation": "la mora"
-        },
-        {
-            "word": "ananas",
-            "translation": "la piña"
-        },
-        {
-            "word": "banana",
-            "translation": "el plátano"
-        },
-        {
-            "word": "lubenita",
-            "translation": "la sandía"
-        },
-        {
-            "word": "grep",
-            "translation": "el pomelo"
-        },
-        {
-            "word": "strugure",
-            "translation": "la uva"
-        }
-    ],
-    "vegetables":[
-        {
-            "word": "dovleac",
-            "translation": "la calabaza"
-        },
-        {
-            "word": "mazare",
-            "translation": "los guisantes"
-        },
-        {
-            "word": "morcovi",
-            "translation": "las zanahorias"
-        },
-        {
-            "word": "ardei",
-            "translation": "los pimientos"
-        },
-        {
-            "word": "ceapa",
-            "translation": "la cebolla"
-        },
-        {
-            "word": "varza de bruxelles",
-            "translation": "la coles de Bruselas"
-        },
-        {
-            "word": "telina",
-            "translation": "el apio"
-        },
-        {
-            "word": "salata",
-            "translation": "la lechuga"
-        },
-        {
-            "word": "conopida",
-            "translation": "la coliflor"
-        },
-        {
-            "word": "varza",
-            "translation": "la col"
-        },
-        {
-            "word": "spanac",
-            "translation": "las espinacas"
-        },
-        {
-            "word": "ceapa verde",
-            "translation": "el puerro"
-        },
-        {
-            "word": "porumb",
-            "translation": "el maíz"
-        },
-        {
-            "word": "fasole verde",
-            "translation": "las judías verdes"
-        },
-        {
-            "word": "sfecla",
-            "translation": "la remolacha"
-        },
-        {
-            "word": "usturoi",
-            "translation": "el ajo"
-        },
-        {
-            "word": "vanata",
-            "translation": "la berenjena"
-        },
-        {
-            "word": "fasole",
-            "translation": "las habas"
-        },
-        {
-            "word": "anghinare",
-            "translation": "la alachofa"
-        },
-        {
-            "word": "cartofi",
-            "translation": "las patatas"
-        },
-        {
-            "word": "zucchini",
-            "translation": "los calabacines"
-        },
-        {
-            "word": "castaveti",
-            "translation": "los pepinos"
-        },
-        {
-            "word": "rosia",
-            "translation": "el tomate"
-        },
-        {
-            "word": "ridichi",
-            "translation": "los rábanos"
-        },
-        {
-            "word": "asparagus",
-            "translation": "los espárragos"
-        }
-    ],
-    "food":[
-        {
-            "word": "hamburger",
-            "translation": "hamburguesa"
-        },
-        {
-            "word": "sandwich Spaniol",
-            "translation": "bocadillo"
-        },
-        {
-            "word": "hot dog",
-            "translation": "perrito caliente"
-        },
-        {
-            "word": "salata",
-            "translation": "ensalada"
-        },
-        {
-            "word": "popcorn",
-            "translation": "palomitas"
-        }
-    ],
-    "desserts":[
-        {
-            "word": "biscuiti cu ciocolata",
-            "translation": "galleta"
-        },
-        {
-            "word": "napolitana",
-            "translation": "oblea"
-        },
-        {
-            "word": "tort",
-            "translation": "pastel"
-        },
-        {
-            "word": "gogoasa",
-            "translation": "rosquilla"
-        },
-        {
-            "word": "cupcake",
-            "translation": "magdalena"
-        },
-        {
-            "word": "inghetata",
-            "translation": "helado"
-        },
-        {
-            "word": "gelatina",
-            "translation": "gelatina"
-        },
-        {
-            "word": "tarta",
-            "translation": "flan"
-        },
-        {
-            "word": "waffle",
-            "translation": "gofre"
-        },
-        {
-            "word": "pancakes",
-            "translation": "panqueque"
-        },
-        {
-            "word": "salam de biscuiti",
-            "translation": "bizcocho de chocolate"
-        }
-    ],
-    "drinks":[
-        {
-            "word": "ceai",
-            "translation": "té"
-        },
-        {
-            "word": "milkshake",
-            "translation": "batido"
-        },
-        {
-            "word": "bere",
-            "translation": "cerveza"
-        },
-        {
-            "word": "cocktail",
-            "translation": "cóctel"
-        },
-        {
-            "word": "sampanie",
-            "translation": "champán"
-        }
-    ],
-    "aliments":[
-        {
-            "word": "paine",
-            "translation": "pan"
-        },
-        {
-            "word": "paine toast",
-            "translation": "pan de molde"
-        },
-        {
-            "word": "faina",
-            "translation": "harina"
-        },
-        {
-            "word": "orez",
-            "translation": "arroz"
-        },
-        {
-            "word": "ovaz",
-            "translation": "avena"
-        },
-        {
-            "word": "unt",
-            "translation": "mantequilla"
-        },
-        {
-            "word": "branza",
-            "translation": "queso"
-        },
-        {
-            "word": "ou",
-            "translation": "huevo"
-        },
-        {
-            "word": "iaurt",
-            "translation": "yogur"
-        },
-        {
-            "word": "gem",
-            "translation": "mermelada"
-        },
-        {
-            "word": "zahar",
-            "translation": "azúcar"
-        }
-    ],
-    "meat":[
-        {
-            "word": "carne bucati",
-            "translation": "carne en dados"
-        },
-        {
-            "word": "carne tocata",
-            "translation": "carne molida"
-        },
-        {
-            "word": "bacon",
-            "translation": "tocino"
-        },
-        {
-            "word": "cotlet",
-            "translation": "chuleta"
-        },
-        {
-            "word": "pui",
-            "translation": "pollo"
-        },
-        {
-            "word": "carnati",
-            "translation": "salchicha"
-        },
-        {
-            "word": "coaste",
-            "translation": "costillas"
-        },
-        {
-            "word": "conserva de ton",
-            "translation": "conserva de átun"
-        },
-        {
-            "word": "crevete",
-            "translation": "gamba"
-        },
-        {
-            "word": "caracatita",
-            "translation": "pulpo"
-        },
-        {
-            "word": "rac",
-            "translation": "cangrejo"
-        }
-    ],
-    "numbers":[
-        {
-            "word": "1",
-            "translation": "uno"
-        },
-        {
-            "word": "2",
-            "translation": "dos"
-        },
-        {
-            "word": "3",
-            "translation": "tres"
-        },
-        {
-            "word": "4",
-            "translation": "cuatro"
-        },
-        {
-            "word": "5",
-            "translation": "cinco"
-        },
-        {
-            "word": "6",
-            "translation": "seis"
-        },
-        {
-            "word": "7",
-            "translation": "siete"
-        },
-        {
-            "word": "8",
-            "translation": "ocho"
-        },
-        {
-            "word": "9",
-            "translation": "nueve"
-        },
-        {
-            "word": "10",
-            "translation": "diez"
-        },
-        {
-            "word": "11",
-            "translation": "once"
-        },
-        {
-            "word": "12",
-            "translation": "doce"
-        },
-        {
-            "word": "13",
-            "translation": "trece"
-        },
-        {
-            "word": "14",
-            "translation": "catorce"
-        },
-        {
-            "word": "15",
-            "translation": "quince"
-        },
-        {
-            "word": "16",
-            "translation": "dieciséis"
-        },
-        {
-            "word": "17",
-            "translation": "diecisiete"
-        },
-        {
-            "word": "18",
-            "translation": "dieciocho"
-        },
-        {
-            "word": "19",
-            "translation": "diecinueve"
-        },
-        {
-            "word": "20",
-            "translation": "veinte"
-        },
-        {
-            "word": "21",
-            "translation": "veintiuno"
-        },
-        {
-            "word": "22",
-            "translation": "veintidós"
-        },
-        {
-            "word": "23",
-            "translation": "veintitrés"
-        },
-        {
-            "word": "24",
-            "translation": "veinticuatro"
-        },
-        {
-            "word": "25",
-            "translation": "veinticinco"
-        },
-        {
-            "word": "26",
-            "translation": "veintiséis"
-        },
-        {
-            "word": "27",
-            "translation": "veintisiete"
-        },
-        {
-            "word": "28",
-            "translation": "veintiocho"
-        },
-        {
-            "word": "29",
-            "translation": "veintinueve"
-        },
-        {
-            "word": "30",
-            "translation": "treinta"
-        },
-        {
-            "word": "40",
-            "translation": "cuarenta"
-        },
-        {
-            "word": "50",
-            "translation": "cincuenta"
-        },
-        {
-            "word": "60",
-            "translation": "sesenta"
-        },
-        {
-            "word": "70",
-            "translation": "setenta"
-        },
-        {
-            "word": "80",
-            "translation": "ochenta"
-        },
-        {
-            "word": "90",
-            "translation": "noventa"
-        }
-    ],
-    "ordinals":[
-        {
-            "word": "primul",
-            "translation": "primero"
-        },
-        {
-            "word": "al 2-lea",
-            "translation": "segundo"
-        },
-        {
-            "word": "al 3-lea",
-            "translation": "tercero"
-        },
-        {
-            "word": "al 4-lea",
-            "translation": "cuarto"
-        },
-        {
-            "word": "al 5-lea",
-            "translation": "quinto"
-        },
-        {
-            "word": "al 6-lea",
-            "translation": "sexto"
-        },
-        {
-            "word": "al 7-lea",
-            "translation": "séptimo"
-        },
-        {
-            "word": "al 8-lea",
-            "translation": "octavo"
-        },
-        {
-            "word": "al 9-lea",
-            "translation": "noveno"
-        },
-        {
-            "word": "al 10-lea",
-            "translation": "décimo"
-        },
-        {
-            "word": "al 11-lea",
-            "translation": "décimo primeiro"
-        },
-        {
-            "word": "al 12-lea",
-            "translation": "décimo segundo"
-        },
-        {
-            "word": "al 13-lea",
-            "translation": "decimotercero"
-        },
-        {
-            "word": "al 14-lea",
-            "translation": "decimocuarto"
-        },
-        {
-            "word": "al 15-lea",
-            "translation": "decimoquinto"
-        },
-        {
-            "word": "al 16-lea",
-            "translation": "decimosexto"
-        },
-        {
-            "word": "al 17-lea",
-            "translation": "decimoséptimo"
-        },
-        {
-            "word": "al 18-lea",
-            "translation": "decimoctavo"
-        },
-        {
-            "word": "al 19-lea",
-            "translation": "decimonoveno"
-        },
-        {
-            "word": "al 20-lea",
-            "translation": "vigésimo"
-        }
-    ],
-    "animales":[
-        {
-            "word": "catel",
-            "translation": "el perro"
-        },
-        {
-            "word": "pisica",
-            "translation": "el gato"
-        },
-        {
-            "word": "iepure domestic",
-            "translation": "el conejo"
-        },
-        {
-            "word": "iepure salbatic",
-            "translation": "la liebre"
-        },
-        {
-            "word": "pasare",
-            "translation": "el pajaro"
-        },
-        {
-            "word": "peste",
-            "translation": "el pez"
-        },
-        {
-            "word": "gaina",
-            "translation": "la gallina"
-        },
-        {
-            "word": "porc",
-            "translation": "el cerdo"
-        },
-        {
-            "word": "oaie",
-            "translation": "la oveja"
-        },
-        {
-            "word": "cal",
-            "translation": "el caballo"
-        },
-        {
-            "word": "vaca",
-            "translation": "la vaca"
-        },
-        {
-            "word": "cocos",
-            "translation": "el gallo"
-        },
-        {
-            "word": "rata",
-            "translation": "el pato"
-        },
-        {
-            "word": "gasca",
-            "translation": "la oca"
-        },
-        {
-            "word": "curcan",
-            "translation": "el pavo"
-        },
-        {
-            "word": "curca",
-            "translation": "la pava"
-        },
-        {
-            "word": "paun",
-            "translation": "el pavo real"
-        },
-        {
-            "word": "porumbel",
-            "translation": "la paloma"
-        },
-        {
-            "word": "porcusor de Guinea",
-            "translation": "el conejillo de Indias"
-        },
-        {
-            "word": "capra",
-            "translation": "la cabra"
-        },
-        {
-            "word": "magar",
-            "translation": "el burro"
-        },
-        {
-            "word": "taur",
-            "translation": "el torro"
-        },
-        {
-            "word": "puisor",
-            "translation": "el pollo"
-        },
-        {
-            "word": "catelus",
-            "translation": "el cachorro"
-        },
-        {
-            "word": "porcusor",
-            "translation": "el cochinillo"
-        },
-        {
-            "word": "miel",
-            "translation": "el cordero"
-        },
-        {
-            "word": "ied",
-            "translation": "el chivo"
-        },
-        {
-            "word": "vitel",
-            "translation": "el ternero"
-        },
-        {
-            "word": "manz",
-            "translation": "el potro"
-        },
-        {
-            "word": "pui de caprioara",
-            "translation": "el cervato"
-        },
-        {
-            "word": "arici",
-            "translation": "el erizo"
-        },
-        {
-            "word": "cartita",
-            "translation": "el topo"
-        },
-        {
-            "word": "liliac",
-            "translation": "el murciélago"
-        },
-        {
-            "word": "soarece",
-            "translation": "el ratón"
-        },
-        {
-            "word": "sobolan",
-            "translation": "la rata"
-        },
-        {
-            "word": "veverita",
-            "translation": "la ardilla"
-        },
-        {
-            "word": "cerb",
-            "translation": "el ciervo"
-        },
-        {
-            "word": "vulpe",
-            "translation": "el zorro"
-        },
-        {
-            "word": "lup",
-            "translation": "el lobo"
-        },
-        {
-            "word": "urs",
-            "translation": "el oso"
-        },
-        {
-            "word": "porc mistret",
-            "translation": "el jabalí"
-        },
-        {
-            "word": "musca",
-            "translation": "la mosca"
-        },
-        {
-            "word": "tantar",
-            "translation": "el mosquito"
-        },
-        {
-            "word": "albina",
-            "translation": "la abeja"
-        },
-        {
-            "word": "viespe",
-            "translation": "la avispa"
-        },
-        {
-            "word": "furnica",
-            "translation": "la hormiga"
-        },
-        {
-            "word": "fluture",
-            "translation": "la mariposa"
-        },
-        {
-            "word": "lacusta",
-            "translation": "la langosta"
-        },
-        {
-            "word": "paianjen",
-            "translation": "la araña"
-        },
-        {
-            "word": "melc",
-            "translation": "el caracol"
-        },
-        {
-            "word": "vrabie",
-            "translation": "el gorrión"
-        },
-        {
-            "word": "cioara",
-            "translation": "el mirlo"
-        },
-        {
-            "word": "bufnita",
-            "translation": "el búho"
-        },
-        {
-            "word": "lebada",
-            "translation": "el cisne"
-        },
-        {
-            "word": "pescarus",
-            "translation": "la gaviota"
-        },
-        {
-            "word": "barza",
-            "translation": "la cigüeña"
-        },
-        {
-            "word": "ciocanitoare",
-            "translation": "el pájaro carpintero"
-        },
-        {
-            "word": "broasca",
-            "translation": "la rana"
-        },
-        {
-            "word": "broscoi",
-            "translation": "el sapo"
-        },
-        {
-            "word": "sarpe",
-            "translation": "el serpiente"
-        },
-        {
-            "word": "broasca testoasa",
-            "translation": "la tortuga"
-        },
-        {
-            "word": "soparla",
-            "translation": "el lagarto"
-        },
-        {
-            "word": "cameleon",
-            "translation": "el cameleón"
-        },
-        {
-            "word": "zebra",
-            "translation": "la cebra"
-        },
-        {
-            "word": "girafa",
-            "translation": "la jirafa"
-        },
-        {
-            "word": "maimuta",
-            "translation": "el mono"
-        },
-        {
-            "word": "elefant",
-            "translation": "el elefante"
-        },
-        {
-            "word": "leu",
-            "translation": "el león"
-        },
-        {
-            "word": "leopard",
-            "translation": "el leopardo"
-        },
-        {
-            "word": "tigru",
-            "translation": "el tigre"
-        },
-        {
-            "word": "antilopa",
-            "translation": "el antílope"
-        },
-        {
-            "word": "raton",
-            "translation": "el mapache"
-        },
-        {
-            "word": "vultur",
-            "translation": "el águila"
-        },
-        {
-            "word": "ras",
-            "translation": "el lince"
-        },
-        {
-            "word": "puma",
-            "translation": "el puma"
-        },
-        {
-            "word": "foca",
-            "translation": "la foca"
-        },
-        {
-            "word": "delfin",
-            "translation": "el delfin"
-        },
-        {
-            "word": "balena",
-            "translation": "la ballena"
-        },
-        {
-            "word": "pinguin",
-            "translation": "el pingüino"
-        },
-        {
-            "word": "rechin",
-            "translation": "el tiburón"
-        },
-        {
-            "word": "pisica de mare",
-            "translation": "la raya"
-        },
-        {
-            "word": "caracatita",
-            "translation": "el pulpo"
-        },
-        {
-            "word": "meduza",
-            "translation": "la medusa"
-        },
-        {
-            "word": "scorpion",
-            "translation": "el escorpión"
-        },
-        {
-            "word": "omida",
-            "translation": "el ciempiés"
-        },
-        {
-            "word": "rac",
-            "translation": "el cangrejo"
+    "categories": [
+        {
+            "categoryName": "Colores",
+            "categoryValue": "colors",
+            "words": [
+                {
+                    "word": "galben",
+                    "translation": "amarillo"
+                },
+                {
+                    "word": "portocaliu",
+                    "translation": "naranja"
+                },
+                {
+                    "word": "rosu",
+                    "translation": "rojo"
+                },
+                {
+                    "word": "mov",
+                    "translation": "morado"
+                },
+                {
+                    "word": "albastru",
+                    "translation": "azul"
+                },
+                {
+                    "word": "verde",
+                    "translation": "verde"
+                },
+                {
+                    "word": "roz",
+                    "translation": "rosa"
+                },
+                {
+                    "word": "gri deschis",
+                    "translation": "gris claro"
+                },
+                {
+                    "word": "gri inchis",
+                    "translation": "gris obscuro"
+                },
+                {
+                    "word": "maro",
+                    "translation": "marrón"
+                },
+                {
+                    "word": "alb",
+                    "translation": "blanco"
+                },
+                {
+                    "word": "negru",
+                    "translation": "negro"
+                }
+            ]
+        },
+        {
+            "categoryName": "Dias de la semana",
+            "categoryValue": "days",
+            "words": [
+                {
+                    "word": "luni",
+                    "translation": "lunes"
+                },
+                {
+                    "word": "marti",
+                    "translation": "martes"
+                },
+                {
+                    "word": "miercuri",
+                    "translation": "miércoles"
+                },
+                {
+                    "word": "joi",
+                    "translation": "jueves"
+                },
+                {
+                    "word": "vineri",
+                    "translation": "viernes"
+                },
+                {
+                    "word": "sambata",
+                    "translation": "sábado"
+                },
+                {
+                    "word": "duminica",
+                    "translation": "domingo"
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Estaciones",
+            "categoryValue": "seasons",
+            "words": [
+                {
+                    "word": "iarna",
+                    "translation": "invierno"
+                },
+                {
+                    "word": "primavara",
+                    "translation": "primavera"
+                },
+                {
+                    "word": "vara",
+                    "translation": "verano"
+                },
+                {
+                    "word": "toamna",
+                    "translation": "otoño"
+                }
+            ]
+        },
+        {
+            "categoryName": "Meses",
+            "categoryValue": "months",
+            "words": [
+                {
+                    "word": "ianuarie",
+                    "translation": "enero"
+                },
+                {
+                    "word": "februarie",
+                    "translation": "febrero"
+                },
+                {
+                    "word": "martie",
+                    "translation": "marzo"
+                },
+                {
+                    "word": "aprilie",
+                    "translation": "abril"
+                },
+                {
+                    "word": "mai",
+                    "translation": "mayo"
+                },
+                {
+                    "word": "iunie",
+                    "translation": "junio"
+                },
+                {
+                    "word": "iulie",
+                    "translation": "julio"
+                },
+                {
+                    "word": "august",
+                    "translation": "agosto"
+                },
+                {
+                    "word": "septembrie",
+                    "translation": "septiembre"
+                },
+                {
+                    "word": "octombrie",
+                    "translation": "octubre"
+                },
+                {
+                    "word": "noiembrie",
+                    "translation": "noviembre"
+                },
+                {
+                    "word": "decembrie",
+                    "translation": "diciembre"
+                }
+            ]
+        },
+        {
+            "categoryName": "Casa",
+            "categoryValue": "house",
+            "words": [
+                {
+                    "word": "sufragerie",
+                    "translation": "salón"
+                },
+                {
+                    "word": "bucatarie",
+                    "translation": "cocina"
+                },
+                {
+                    "word": "dormitor",
+                    "translation": "dormitorio"
+                },
+                {
+                    "word": "baie",
+                    "translation": "cuarto de baño"
+                },
+                {
+                    "word": "birou",
+                    "translation": "estudio"
+                },
+                {
+                    "word": "gradina",
+                    "translation": "jardín"
+                },
+                {
+                    "word": "balcon",
+                    "translation": "balcón"
+                },
+                {
+                    "word": "garaj",
+                    "translation": "cochera"
+                },
+                {
+                    "word": "subsol",
+                    "translation": "sótano"
+                },
+                {
+                    "word": "pod",
+                    "translation": "ático"
+                },
+                {
+                    "word": "scara",
+                    "translation": "escalera"
+                },
+                {
+                    "word": "hol",
+                    "translation": "pasillo"
+                }
+            ]
+        },
+        {
+            "categoryName": "Objetos de la casa",
+            "categoryValue": "objects",
+            "words": [
+                {
+                    "word": "usa",
+                    "translation": "puerta"
+                },
+                {
+                    "word": "geam",
+                    "translation": "ventana"
+                },
+                {
+                    "word": "sonerie",
+                    "translation": "timbre"
+                },
+                {
+                    "word": "intrerupator",
+                    "translation": "interruptor"
+                },
+                {
+                    "word": "priza",
+                    "translation": "enchufe"
+                },
+                {
+                    "word": "calorifer",
+                    "translation": "radiador"
+                },
+                {
+                    "word": "robinet",
+                    "translation": "grifo"
+                },
+                {
+                    "word": "tablou",
+                    "translation": "cuadro"
+                },
+                {
+                    "word": "podea",
+                    "translation": "suelo"
+                },
+                {
+                    "word": "perete",
+                    "translation": "pared"
+                },
+                {
+                    "word": "tavan",
+                    "translation": "techo"
+                }
+            ]
+        },
+        {
+            "categoryName": "Salón",
+            "categoryValue": "livingRoom",
+            "words": [
+                {
+                    "word": "canapea",
+                    "translation": "sofá"
+                },
+                {
+                    "word": "telefon",
+                    "translation": "teléfono"
+                },
+                {
+                    "word": "fotoliu",
+                    "translation": "sillón"
+                },
+                {
+                    "word": "masuta",
+                    "translation": "mesita"
+                },
+                {
+                    "word": "telecomanda",
+                    "translation": "mando TV"
+                },
+                {
+                    "word": "rafturi",
+                    "translation": "estantería"
+                },
+                {
+                    "word": "scaun",
+                    "translation": "silla"
+                },
+                {
+                    "word": "semineu",
+                    "translation": "chimenea"
+                },
+                {
+                    "word": "perdele",
+                    "translation": "cortinas"
+                }
+            ]
+        },
+        {
+            "categoryName": "Dormitorio",
+            "categoryValue": "bedroom",
+            "words": [
+                {
+                    "word": "pat",
+                    "translation": "cama"
+                },
+                {
+                    "word": "perna",
+                    "translation": "almohada"
+                },
+                {
+                    "word": "dulap",
+                    "translation": "armario"
+                },
+                {
+                    "word": "noptiera",
+                    "translation": "mesita de noche"
+                },
+                {
+                    "word": "birou",
+                    "translation": "escritorio"
+                },
+                {
+                    "word": "covor",
+                    "translation": "alfombra"
+                },
+                {
+                    "word": "jucarii",
+                    "translation": "juguetes"
+                },
+                {
+                    "word": "carte",
+                    "translation": "libro"
+                },
+                {
+                    "word": "umeras",
+                    "translation": "percha"
+                },
+                {
+                    "word": "cerceaf",
+                    "translation": "sábana"
+                },
+                {
+                    "word": "lampa",
+                    "translation": "lámpara"
+                },
+                {
+                    "word": "plapuma",
+                    "translation": "edredón"
+                } 
+            ]
+        },
+        {
+            "categoryName": "Cocina",
+            "categoryValue": "kitchen",
+            "words": [
+                {
+                    "word": "furculita",
+                    "translation": "tenedor"
+                },
+                {
+                    "word": "cutit",
+                    "translation": "cuchillo"
+                },
+                {
+                    "word": "lingura",
+                    "translation": "cuchara"
+                },
+                {
+                    "word": "polonic",
+                    "translation": "cucharón"
+                },
+                {
+                    "word": "cratita",
+                    "translation": "cacillo"
+                },
+                {
+                    "word": "tiganie",
+                    "translation": "sartén"
+                },
+                {
+                    "word": "oala",
+                    "translation": "cacerola"
+                },
+                {
+                    "word": "cana",
+                    "translation": "taza"
+                },
+                {
+                    "word": "pahar",
+                    "translation": "vaso"
+                },
+                {
+                    "word": "pahar cu picior",
+                    "translation": "copa"
+                },
+                {
+                    "word": "recipient",
+                    "translation": "jarra"
+                },
+                {
+                    "word": "cos de gunoi",
+                    "translation": "cubo de basura"
+                }
+            ]
+        },
+        {
+            "categoryName": "Otros objetos",
+            "categoryValue": "otherObjects",
+            "words": [
+                {
+                    "word": "mop",
+                    "translation": "mopa"
+                },
+                {
+                    "word": "racoritoare",
+                    "translation": "refresco"
+                },
+                {
+                    "word": "tava",
+                    "translation": "molde"
+                },
+                {
+                    "word": "ceas",
+                    "translation": "reloj"
+                },
+                {
+                    "word": "mixer",
+                    "translation": "batidora"
+                },
+                {
+                    "word": "storcator",
+                    "translation": "exprimidor"
+                },
+                {
+                    "word": "toaster",
+                    "translation": "tostadora"
+                },
+                {
+                    "word": "microunde",
+                    "translation": "microondas"
+                },
+                {
+                    "word": "masina de spalat vase",
+                    "translation": "lavavajillas"
+                },
+                {
+                    "word": "cuptor",
+                    "translation": "horno"
+                },
+                {
+                    "word": "frigider",
+                    "translation": "frigorífico"
+                },
+                {
+                    "word": "masina de spalat",
+                    "translation": "lavadora"
+                },
+                {
+                    "word": "aragaz",
+                    "translation": "hornilla"
+                }
+            ]
+        },
+        {
+            "categoryName": "Frutas",
+            "categoryValue": "fruits",
+            "words": [
+                {
+                    "word": "avocado",
+                    "translation": "el aguacate"
+                },
+                {
+                    "word": "caisa",
+                    "translation": "el albaricoque"
+                },
+                {
+                    "word": "coacaza",
+                    "translation": "el arándano"
+                },
+                {
+                    "word": "cireasa",
+                    "translation": "la cereza"
+                },
+                {
+                    "word": "pruna",
+                    "translation": "la ciruela"
+                },
+                {
+                    "word": "cocos",
+                    "translation": "el coco"
+                },
+                {
+                    "word": "zmeura",
+                    "translation": "la frambuesa"
+                },
+                {
+                    "word": "capsuna",
+                    "translation": "la fresa"
+                },
+                {
+                    "word": "rodie",
+                    "translation": "la granada"
+                },
+                {
+                    "word": "curmala",
+                    "translation": "el higo"
+                },
+                {
+                    "word": "lime",
+                    "translation": "la lima"
+                },
+                {
+                    "word": "lamaie",
+                    "translation": "el limón"
+                },
+                {
+                    "word": "mar",
+                    "translation": "la manzana"
+                },
+                {
+                    "word": "fructul pasiunii",
+                    "translation": "el maracuyá"
+                },
+                {
+                    "word": "piersica",
+                    "translation": "el melocotón"
+                },
+                {
+                    "word": "gutuie",
+                    "translation": "el membrillo"
+                },
+                {
+                    "word": "mura",
+                    "translation": "la mora"
+                },
+                {
+                    "word": "ananas",
+                    "translation": "la piña"
+                },
+                {
+                    "word": "banana",
+                    "translation": "el plátano"
+                },
+                {
+                    "word": "lubenita",
+                    "translation": "la sandía"
+                },
+                {
+                    "word": "grep",
+                    "translation": "el pomelo"
+                },
+                {
+                    "word": "strugure",
+                    "translation": "la uva"
+                }
+            ]
+        },
+        {
+            "categoryName": "Verduras",
+            "categoryValue": "vegetables",
+            "words": [
+                {
+                    "word": "dovleac",
+                    "translation": "la calabaza"
+                },
+                {
+                    "word": "mazare",
+                    "translation": "los guisantes"
+                },
+                {
+                    "word": "morcovi",
+                    "translation": "las zanahorias"
+                },
+                {
+                    "word": "ardei",
+                    "translation": "los pimientos"
+                },
+                {
+                    "word": "ceapa",
+                    "translation": "la cebolla"
+                },
+                {
+                    "word": "varza de bruxelles",
+                    "translation": "la coles de Bruselas"
+                },
+                {
+                    "word": "telina",
+                    "translation": "el apio"
+                },
+                {
+                    "word": "salata",
+                    "translation": "la lechuga"
+                },
+                {
+                    "word": "conopida",
+                    "translation": "la coliflor"
+                },
+                {
+                    "word": "varza",
+                    "translation": "la col"
+                },
+                {
+                    "word": "spanac",
+                    "translation": "las espinacas"
+                },
+                {
+                    "word": "ceapa verde",
+                    "translation": "el puerro"
+                },
+                {
+                    "word": "porumb",
+                    "translation": "el maíz"
+                },
+                {
+                    "word": "fasole verde",
+                    "translation": "las judías verdes"
+                },
+                {
+                    "word": "sfecla",
+                    "translation": "la remolacha"
+                },
+                {
+                    "word": "usturoi",
+                    "translation": "el ajo"
+                },
+                {
+                    "word": "vanata",
+                    "translation": "la berenjena"
+                },
+                {
+                    "word": "fasole",
+                    "translation": "las habas"
+                },
+                {
+                    "word": "anghinare",
+                    "translation": "la alachofa"
+                },
+                {
+                    "word": "cartofi",
+                    "translation": "las patatas"
+                },
+                {
+                    "word": "zucchini",
+                    "translation": "los calabacines"
+                },
+                {
+                    "word": "castaveti",
+                    "translation": "los pepinos"
+                },
+                {
+                    "word": "rosia",
+                    "translation": "el tomate"
+                },
+                {
+                    "word": "ridichi",
+                    "translation": "los rábanos"
+                },
+                {
+                    "word": "asparagus",
+                    "translation": "los espárragos"
+                }
+            ]
+        },
+        {
+            "categoryName": "Comida",
+            "categoryValue": "food",
+            "words": [
+                {
+                    "word": "hamburger",
+                    "translation": "hamburguesa"
+                },
+                {
+                    "word": "sandwich Spaniol",
+                    "translation": "bocadillo"
+                },
+                {
+                    "word": "hot dog",
+                    "translation": "perrito caliente"
+                },
+                {
+                    "word": "salata",
+                    "translation": "ensalada"
+                },
+                {
+                    "word": "popcorn",
+                    "translation": "palomitas"
+                }
+            ]
+        },
+        {
+            "categoryName": "Postres",
+            "categoryValue": "desserts",
+            "words": [
+                {
+                    "word": "biscuiti cu ciocolata",
+                    "translation": "galleta"
+                },
+                {
+                    "word": "napolitana",
+                    "translation": "oblea"
+                },
+                {
+                    "word": "tort",
+                    "translation": "pastel"
+                },
+                {
+                    "word": "gogoasa",
+                    "translation": "rosquilla"
+                },
+                {
+                    "word": "cupcake",
+                    "translation": "magdalena"
+                },
+                {
+                    "word": "inghetata",
+                    "translation": "helado"
+                },
+                {
+                    "word": "gelatina",
+                    "translation": "gelatina"
+                },
+                {
+                    "word": "tarta",
+                    "translation": "flan"
+                },
+                {
+                    "word": "waffle",
+                    "translation": "gofre"
+                },
+                {
+                    "word": "pancakes",
+                    "translation": "panqueque"
+                },
+                {
+                    "word": "salam de biscuiti",
+                    "translation": "bizcocho de chocolate"
+                }
+            ]
+        },
+        {
+            "categoryName": "Bebidas",
+            "categoryValue": "drinks",
+            "words": [
+                {
+                    "word": "ceai",
+                    "translation": "té"
+                },
+                {
+                    "word": "milkshake",
+                    "translation": "batido"
+                },
+                {
+                    "word": "bere",
+                    "translation": "cerveza"
+                },
+                {
+                    "word": "cocktail",
+                    "translation": "cóctel"
+                },
+                {
+                    "word": "sampanie",
+                    "translation": "champán"
+                }
+            ]
+        },
+        {
+            "categoryName": "Alimentos",
+            "categoryValue": "aliments",
+            "words": [
+                {
+                    "word": "paine",
+                    "translation": "pan"
+                },
+                {
+                    "word": "paine toast",
+                    "translation": "pan de molde"
+                },
+                {
+                    "word": "faina",
+                    "translation": "harina"
+                },
+                {
+                    "word": "orez",
+                    "translation": "arroz"
+                },
+                {
+                    "word": "ovaz",
+                    "translation": "avena"
+                },
+                {
+                    "word": "unt",
+                    "translation": "mantequilla"
+                },
+                {
+                    "word": "branza",
+                    "translation": "queso"
+                },
+                {
+                    "word": "ou",
+                    "translation": "huevo"
+                },
+                {
+                    "word": "iaurt",
+                    "translation": "yogur"
+                },
+                {
+                    "word": "gem",
+                    "translation": "mermelada"
+                },
+                {
+                    "word": "zahar",
+                    "translation": "azúcar"
+                }
+            ]
+        },
+        {
+            "categoryName": "Carne",
+            "categoryValue": "meat",
+            "words": [
+                {
+                    "word": "carne bucati",
+                    "translation": "carne en dados"
+                },
+                {
+                    "word": "carne tocata",
+                    "translation": "carne molida"
+                },
+                {
+                    "word": "bacon",
+                    "translation": "tocino"
+                },
+                {
+                    "word": "cotlet",
+                    "translation": "chuleta"
+                },
+                {
+                    "word": "pui",
+                    "translation": "pollo"
+                },
+                {
+                    "word": "carnati",
+                    "translation": "salchicha"
+                },
+                {
+                    "word": "coaste",
+                    "translation": "costillas"
+                },
+                {
+                    "word": "conserva de ton",
+                    "translation": "conserva de átun"
+                },
+                {
+                    "word": "crevete",
+                    "translation": "gamba"
+                },
+                {
+                    "word": "caracatita",
+                    "translation": "pulpo"
+                },
+                {
+                    "word": "rac",
+                    "translation": "cangrejo"
+                }
+            ]
+        },
+        {
+            "categoryName": "Numeros",
+            "categoryValue": "numbers",
+            "words": [
+                {
+                    "word": "1",
+                    "translation": "uno"
+                },
+                {
+                    "word": "2",
+                    "translation": "dos"
+                },
+                {
+                    "word": "3",
+                    "translation": "tres"
+                },
+                {
+                    "word": "4",
+                    "translation": "cuatro"
+                },
+                {
+                    "word": "5",
+                    "translation": "cinco"
+                },
+                {
+                    "word": "6",
+                    "translation": "seis"
+                },
+                {
+                    "word": "7",
+                    "translation": "siete"
+                },
+                {
+                    "word": "8",
+                    "translation": "ocho"
+                },
+                {
+                    "word": "9",
+                    "translation": "nueve"
+                },
+                {
+                    "word": "10",
+                    "translation": "diez"
+                },
+                {
+                    "word": "11",
+                    "translation": "once"
+                },
+                {
+                    "word": "12",
+                    "translation": "doce"
+                },
+                {
+                    "word": "13",
+                    "translation": "trece"
+                },
+                {
+                    "word": "14",
+                    "translation": "catorce"
+                },
+                {
+                    "word": "15",
+                    "translation": "quince"
+                },
+                {
+                    "word": "16",
+                    "translation": "dieciséis"
+                },
+                {
+                    "word": "17",
+                    "translation": "diecisiete"
+                },
+                {
+                    "word": "18",
+                    "translation": "dieciocho"
+                },
+                {
+                    "word": "19",
+                    "translation": "diecinueve"
+                },
+                {
+                    "word": "20",
+                    "translation": "veinte"
+                },
+                {
+                    "word": "21",
+                    "translation": "veintiuno"
+                },
+                {
+                    "word": "22",
+                    "translation": "veintidós"
+                },
+                {
+                    "word": "23",
+                    "translation": "veintitrés"
+                },
+                {
+                    "word": "24",
+                    "translation": "veinticuatro"
+                },
+                {
+                    "word": "25",
+                    "translation": "veinticinco"
+                },
+                {
+                    "word": "26",
+                    "translation": "veintiséis"
+                },
+                {
+                    "word": "27",
+                    "translation": "veintisiete"
+                },
+                {
+                    "word": "28",
+                    "translation": "veintiocho"
+                },
+                {
+                    "word": "29",
+                    "translation": "veintinueve"
+                },
+                {
+                    "word": "30",
+                    "translation": "treinta"
+                },
+                {
+                    "word": "40",
+                    "translation": "cuarenta"
+                },
+                {
+                    "word": "50",
+                    "translation": "cincuenta"
+                },
+                {
+                    "word": "60",
+                    "translation": "sesenta"
+                },
+                {
+                    "word": "70",
+                    "translation": "setenta"
+                },
+                {
+                    "word": "80",
+                    "translation": "ochenta"
+                },
+                {
+                    "word": "90",
+                    "translation": "noventa"
+                }
+            ]
+        },
+        {
+            "categoryName": "Ordinales",
+            "categoryValue": "ordinals",
+            "words": [
+                {
+                    "word": "primul",
+                    "translation": "primero"
+                },
+                {
+                    "word": "al 2-lea",
+                    "translation": "segundo"
+                },
+                {
+                    "word": "al 3-lea",
+                    "translation": "tercero"
+                },
+                {
+                    "word": "al 4-lea",
+                    "translation": "cuarto"
+                },
+                {
+                    "word": "al 5-lea",
+                    "translation": "quinto"
+                },
+                {
+                    "word": "al 6-lea",
+                    "translation": "sexto"
+                },
+                {
+                    "word": "al 7-lea",
+                    "translation": "séptimo"
+                },
+                {
+                    "word": "al 8-lea",
+                    "translation": "octavo"
+                },
+                {
+                    "word": "al 9-lea",
+                    "translation": "noveno"
+                },
+                {
+                    "word": "al 10-lea",
+                    "translation": "décimo"
+                },
+                {
+                    "word": "al 11-lea",
+                    "translation": "décimo primeiro"
+                },
+                {
+                    "word": "al 12-lea",
+                    "translation": "décimo segundo"
+                },
+                {
+                    "word": "al 13-lea",
+                    "translation": "decimotercero"
+                },
+                {
+                    "word": "al 14-lea",
+                    "translation": "decimocuarto"
+                },
+                {
+                    "word": "al 15-lea",
+                    "translation": "decimoquinto"
+                },
+                {
+                    "word": "al 16-lea",
+                    "translation": "decimosexto"
+                },
+                {
+                    "word": "al 17-lea",
+                    "translation": "decimoséptimo"
+                },
+                {
+                    "word": "al 18-lea",
+                    "translation": "decimoctavo"
+                },
+                {
+                    "word": "al 19-lea",
+                    "translation": "decimonoveno"
+                },
+                {
+                    "word": "al 20-lea",
+                    "translation": "vigésimo"
+                }
+            ]
+        },
+        {
+            "categoryName": "Animales",
+            "categoryValue": "animals",
+            "words": [
+                {
+                    "word": "catel",
+                    "translation": "el perro"
+                },
+                {
+                    "word": "pisica",
+                    "translation": "el gato"
+                },
+                {
+                    "word": "iepure domestic",
+                    "translation": "el conejo"
+                },
+                {
+                    "word": "iepure salbatic",
+                    "translation": "la liebre"
+                },
+                {
+                    "word": "pasare",
+                    "translation": "el pajaro"
+                },
+                {
+                    "word": "peste",
+                    "translation": "el pez"
+                },
+                {
+                    "word": "gaina",
+                    "translation": "la gallina"
+                },
+                {
+                    "word": "porc",
+                    "translation": "el cerdo"
+                },
+                {
+                    "word": "oaie",
+                    "translation": "la oveja"
+                },
+                {
+                    "word": "cal",
+                    "translation": "el caballo"
+                },
+                {
+                    "word": "vaca",
+                    "translation": "la vaca"
+                },
+                {
+                    "word": "cocos",
+                    "translation": "el gallo"
+                },
+                {
+                    "word": "rata",
+                    "translation": "el pato"
+                },
+                {
+                    "word": "gasca",
+                    "translation": "la oca"
+                },
+                {
+                    "word": "curcan",
+                    "translation": "el pavo"
+                },
+                {
+                    "word": "curca",
+                    "translation": "la pava"
+                },
+                {
+                    "word": "paun",
+                    "translation": "el pavo real"
+                },
+                {
+                    "word": "porumbel",
+                    "translation": "la paloma"
+                },
+                {
+                    "word": "porcusor de Guinea",
+                    "translation": "el conejillo de Indias"
+                },
+                {
+                    "word": "capra",
+                    "translation": "la cabra"
+                },
+                {
+                    "word": "magar",
+                    "translation": "el burro"
+                },
+                {
+                    "word": "taur",
+                    "translation": "el torro"
+                },
+                {
+                    "word": "puisor",
+                    "translation": "el pollo"
+                },
+                {
+                    "word": "catelus",
+                    "translation": "el cachorro"
+                },
+                {
+                    "word": "porcusor",
+                    "translation": "el cochinillo"
+                },
+                {
+                    "word": "miel",
+                    "translation": "el cordero"
+                },
+                {
+                    "word": "ied",
+                    "translation": "el chivo"
+                },
+                {
+                    "word": "vitel",
+                    "translation": "el ternero"
+                },
+                {
+                    "word": "manz",
+                    "translation": "el potro"
+                },
+                {
+                    "word": "pui de caprioara",
+                    "translation": "el cervato"
+                },
+                {
+                    "word": "arici",
+                    "translation": "el erizo"
+                },
+                {
+                    "word": "cartita",
+                    "translation": "el topo"
+                },
+                {
+                    "word": "liliac",
+                    "translation": "el murciélago"
+                },
+                {
+                    "word": "soarece",
+                    "translation": "el ratón"
+                },
+                {
+                    "word": "sobolan",
+                    "translation": "la rata"
+                },
+                {
+                    "word": "veverita",
+                    "translation": "la ardilla"
+                },
+                {
+                    "word": "cerb",
+                    "translation": "el ciervo"
+                },
+                {
+                    "word": "vulpe",
+                    "translation": "el zorro"
+                },
+                {
+                    "word": "lup",
+                    "translation": "el lobo"
+                },
+                {
+                    "word": "urs",
+                    "translation": "el oso"
+                },
+                {
+                    "word": "porc mistret",
+                    "translation": "el jabalí"
+                },
+                {
+                    "word": "musca",
+                    "translation": "la mosca"
+                },
+                {
+                    "word": "tantar",
+                    "translation": "el mosquito"
+                },
+                {
+                    "word": "albina",
+                    "translation": "la abeja"
+                },
+                {
+                    "word": "viespe",
+                    "translation": "la avispa"
+                },
+                {
+                    "word": "furnica",
+                    "translation": "la hormiga"
+                },
+                {
+                    "word": "fluture",
+                    "translation": "la mariposa"
+                },
+                {
+                    "word": "lacusta",
+                    "translation": "la langosta"
+                },
+                {
+                    "word": "paianjen",
+                    "translation": "la araña"
+                },
+                {
+                    "word": "melc",
+                    "translation": "el caracol"
+                },
+                {
+                    "word": "vrabie",
+                    "translation": "el gorrión"
+                },
+                {
+                    "word": "cioara",
+                    "translation": "el mirlo"
+                },
+                {
+                    "word": "bufnita",
+                    "translation": "el búho"
+                },
+                {
+                    "word": "lebada",
+                    "translation": "el cisne"
+                },
+                {
+                    "word": "pescarus",
+                    "translation": "la gaviota"
+                },
+                {
+                    "word": "barza",
+                    "translation": "la cigüeña"
+                },
+                {
+                    "word": "ciocanitoare",
+                    "translation": "el pájaro carpintero"
+                },
+                {
+                    "word": "broasca",
+                    "translation": "la rana"
+                },
+                {
+                    "word": "broscoi",
+                    "translation": "el sapo"
+                },
+                {
+                    "word": "sarpe",
+                    "translation": "el serpiente"
+                },
+                {
+                    "word": "broasca testoasa",
+                    "translation": "la tortuga"
+                },
+                {
+                    "word": "soparla",
+                    "translation": "el lagarto"
+                },
+                {
+                    "word": "cameleon",
+                    "translation": "el cameleón"
+                },
+                {
+                    "word": "zebra",
+                    "translation": "la cebra"
+                },
+                {
+                    "word": "girafa",
+                    "translation": "la jirafa"
+                },
+                {
+                    "word": "maimuta",
+                    "translation": "el mono"
+                },
+                {
+                    "word": "elefant",
+                    "translation": "el elefante"
+                },
+                {
+                    "word": "leu",
+                    "translation": "el león"
+                },
+                {
+                    "word": "leopard",
+                    "translation": "el leopardo"
+                },
+                {
+                    "word": "tigru",
+                    "translation": "el tigre"
+                },
+                {
+                    "word": "antilopa",
+                    "translation": "el antílope"
+                },
+                {
+                    "word": "raton",
+                    "translation": "el mapache"
+                },
+                {
+                    "word": "vultur",
+                    "translation": "el águila"
+                },
+                {
+                    "word": "ras",
+                    "translation": "el lince"
+                },
+                {
+                    "word": "puma",
+                    "translation": "el puma"
+                },
+                {
+                    "word": "foca",
+                    "translation": "la foca"
+                },
+                {
+                    "word": "delfin",
+                    "translation": "el delfin"
+                },
+                {
+                    "word": "balena",
+                    "translation": "la ballena"
+                },
+                {
+                    "word": "pinguin",
+                    "translation": "el pingüino"
+                },
+                {
+                    "word": "rechin",
+                    "translation": "el tiburón"
+                },
+                {
+                    "word": "pisica de mare",
+                    "translation": "la raya"
+                },
+                {
+                    "word": "caracatita",
+                    "translation": "el pulpo"
+                },
+                {
+                    "word": "meduza",
+                    "translation": "la medusa"
+                },
+                {
+                    "word": "scorpion",
+                    "translation": "el escorpión"
+                },
+                {
+                    "word": "omida",
+                    "translation": "el ciempiés"
+                },
+                {
+                    "word": "rac",
+                    "translation": "el cangrejo"
+                }
+            ]
+        },
+        {
+            "categoryName": "Partes del cuerpo animal",
+            "categoryValue": "animalBodyParts",
+            "words": [
+                {
+                    "word": "laba",
+                    "translation": "la pata"
+                },
+                {
+                    "word": "coada",
+                    "translation": "la cola"
+                },
+                {
+                    "word": "penaj",
+                    "translation": "la pluma"
+                },
+                {
+                    "word": "aripa",
+                    "translation": "el ala"
+                },
+                {
+                    "word": "cioc",
+                    "translation": "el pico"
+                },
+                {
+                    "word": "coarne",
+                    "translation": "los cuernos"
+                },
+                {
+                    "word": "trompa",
+                    "translation": "la trompa"
+                },
+                {
+                    "word": "colt",
+                    "translation": "el colmillo"
+                },
+                {
+                    "word": "carapace",
+                    "translation": "el caparazón"
+                },
+                {
+                    "word": "rat, bot",
+                    "translation": "el hocico"
+                },
+                {
+                    "word": "copita",
+                    "translation": "el casco"
+                },
+                {
+                    "word": "aripioara pestelui",
+                    "translation": "la aleta"
+                },
+                {
+                    "word": "ghiara",
+                    "translation": "la garra"
+                },
+                {
+                    "word": "coama",
+                    "translation": "la crin"
+                },
+                {
+                    "word": "blana",
+                    "translation": "el pelaje"
+                }
+            ]
         }
     ]
 }
