@@ -1,0 +1,32 @@
+<div class="header">VOCABULARIO</div>
+<div class="container">
+    <select class="select" (change)="selectOption($event.target.value)">
+        <option value="all">Todos</option>
+        <option value="colors">Colores</option>
+        <option value="days">Dias de la semana</option>
+        <option value="seasons">Estaciones</option>
+        <option value="months">Meses</option>
+        <option value="house">Partes de la casa</option>
+        <option value="objects">Objetos de la casa</option>
+        <option value="livingRoom">El salon</option>
+        <option value="bedroom">El dormitorio</option>
+        <option value="kitchen">La cocina</option>
+        <option value="fruits">Frutas</option>
+        <option value="vegetables">Verduras</option>
+        <option value="food">Comidas</option>
+        <option value="desserts">Postres</option>
+        <option value="drinks">Bebidas</option>
+        <option value="aliments">Alimentos</option>
+        <option value="meat">Carnes</option>
+        <option value="numbers">Numeros</option>
+        <option value="ordinals">Ordinales</option>
+      </select>
+    <div *ngIf="currentWord" class="word">{{currentWord.word}}</div>
+    <input class="solution" [(ngModel)]="solution" (keyup.enter)="verify()">
+    <div class="action-buttons">
+        <button class="button" (click)="verify()">Verify</button>
+        <button class="button" (click)="next()" [disabled]="disableNext" [class.button--disabled]="disableNext">{{random ? 'Random' : 'Next'}}</button>
+    </div>
+    <div *ngIf="correct" class="correct">Correct!</div>
+    <div *ngIf="correct === false" class="wrong">Wrong. Correct is: <span class="wrong-solution">{{currentWord.translation}}</span></div>
+</div>

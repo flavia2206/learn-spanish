@@ -1,0 +1,80 @@
+.word {
+    border: 5px dashed white;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    padding-top: 45px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px auto;
+    color: white;
+
+}
+
+.solution {
+    margin: 0 auto;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+
+    &--disabled {
+        color: grey;
+        border: 1px solid grey;
+    }
+}
+
+.correct {
+    text-align: center;
+    padding-top: 45px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(15, 202, 15);
+}
+
+.wrong {
+    text-align: center;
+    padding: 45px 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    &-solution {
+        color: rgb(15, 202, 15);
+    }
+}
+
+.select {
+    width: 175px;
+    height: 48px;
+    position: absolute;
+    right: 30px;
+    top: 160px;
+}
+
+.action-buttons {
+    display: flex;
+    margin: 20px auto;
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    font-size: 75px;
+    color: #202020;
+    letter-spacing: 31px;
+    padding: 27px 0;
+}
